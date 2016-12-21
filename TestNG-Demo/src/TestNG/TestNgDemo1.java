@@ -32,7 +32,7 @@ public class TestNgDemo1 {
 	@AfterTest
 	
 	public void closeapp(){
-		
+		//System.out.println("App is Closing Now");//Extra coding for GIT Example
 		driver.close();
 	}
 	
